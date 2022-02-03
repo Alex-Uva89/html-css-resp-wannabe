@@ -83,7 +83,7 @@ img {
   }
 
   .container{
-    width: 420px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,11 +95,11 @@ img {
   .row {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 10vw;
   }
 
   .row{
-    width: 420px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,7 +137,7 @@ img {
   }
 
   #why{
-    padding-top: 10px;
+    padding-top: 3vw;
     background-color: #f2f2cc;
   }
 
