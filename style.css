@@ -74,27 +74,56 @@ img {
 
 /* __________________Inizio Variazioni UVA 03/02/22________________ */
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 420px){
   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    margin-left: -50px;
+  }
+
   .container{
-    width: 320px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #f2f2cc;
   }
 
   .row{
-    width: 320px;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     margin: 0;
+  }
+
+  #lezioni .row img
+  #why .row img{
+    height: 40vw;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right,
-  #lezioni .row>.central{
-    width: 80vw;
+  #lezioni .row>.central,
+  #steps .row>.left,
+  #steps .row>.right,
+  #steps .row>.central,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 80%;
     float: none;
+    display: flex;
+    flex-direction: column;
   }
+
+  
   
 
 }
