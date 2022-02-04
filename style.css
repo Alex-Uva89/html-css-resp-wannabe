@@ -124,10 +124,7 @@ img {
   #lezioni .row>.central,
   #steps .row>.left,
   #steps .row>.right,
-  #steps .row>.central,
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third{
+  #steps .row>.central{
     width: 100%;
     float: none;
     display: flex;
